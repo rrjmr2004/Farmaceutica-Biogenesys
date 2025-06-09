@@ -1,133 +1,160 @@
-💊 Farmacéutica - Biogenesys.
+# 💊 Biogenesys – Expansión Estratégica en América Latina
 
-🚀 Expansión Estratégica de Biogenesys con Python
+### 🚀 Proyecto de Análisis de Datos con Python & Power BI
 
-🧬 Introducción
-La empresa farmacéutica BIOGENESYS busca identificar las ubicaciones óptimas para la expansión de laboratorios en América Latina, enfocándose en seis países clave: Colombia, Argentina, Chile, México, Perú y Brasil.
-El objetivo es mejorar la respuesta ante pandemias y optimizar el acceso a vacunas mediante el análisis de datos epidemiológicos, demográficos y sanitarios.
+---
 
-BIOGENESYS nos ha contratado como equipo de Data Analysts para realizar un estudio exhaustivo basado en datos reales. El fin es ofrecer recomendaciones sobre dónde establecer nuevos centros de vacunación y laboratorios, con un enfoque preventivo y de desarrollo de infraestructura sanitaria.
+## 🧬 Introducción
 
-🛠️ Desarrollo del Proyecto
-📊 Avance 1: Recopilación y Preparación de Datos
-Se recopilaron y consolidaron datos relevantes de fuentes oficiales sobre COVID-19, vacunación, salud pública y condiciones demográficas.
-Se creó el archivo maestro: Df_datos_finales_filtrado.csv.
+La farmacéutica **Biogenesys** busca identificar ubicaciones estratégicas para la expansión de laboratorios en América Latina, con el fin de:
 
-Tareas clave:
+- Mejorar la **respuesta ante pandemias**  
+- Optimizar el **acceso a vacunas**
 
-🌎 Filtrado por los seis países objetivos.
+El análisis se centró en **6 países clave**:  
+🇨🇴 Colombia · 🇦🇷 Argentina · 🇨🇱 Chile · 🇲🇽 México · 🇵🇪 Perú · 🇧🇷 Brasil
 
-📅 Filtrado por fechas (años 2021-2022).
+Como equipo de **Data Analysts**, fuimos contratados para:
 
-🧹 Limpieza de datos: eliminación de registros vacíos, duplicados y valores nulos.
+> 📌 Realizar un estudio de datos epidemiológicos, demográficos y sanitarios para recomendar ubicaciones óptimas de nuevos centros de vacunación y laboratorios.
 
-🔍 Filtrado por location_key.
+---
 
+## 🛠️ Fases del Proyecto
 
-📈 Avance 2: Análisis Exploratorio y Visualización
-Utilizando Pandas, NumPy, Matplotlib y Seaborn, se realizaron:
+### 📊 Avance 1: Recopilación y Preparación de Datos
 
-📐 Estadísticas descriptivas: medias, medianas, desviaciones, rangos.
+🔹 Recolección de datos de fuentes oficiales sobre:  
+COVID-19, vacunación, salud pública, condiciones demográficas
 
-📊 Visualizaciones: histogramas, boxplots, mapas de calor, barras, dispersión.
+🔹 Creación del dataset maestro:  
+`Df_datos_finales_filtrado.csv`
 
-🔗 Correlaciones entre: temperatura, densidad poblacional y número de casos/muertes.
+**Tareas clave:**
 
-🧠 Insights clave:
+- 🌎 Filtrado por países objetivo  
+- 📅 Filtrado por fechas (2021–2022)  
+- 🧹 Limpieza: valores nulos, duplicados  
+- 📌 Selección por `location_key`
 
-🔥 Regiones con mayor temperatura promedio mostraron menor incidencia.
+---
 
-🧍‍♂️ Alta correlación entre densidad poblacional y propagación del virus.
+### 📈 Avance 2: Análisis Exploratorio y Visualización
 
-🏥 Déficit de infraestructura sanitaria en zonas con alta mortalidad.
+📚 Tecnologías: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`
 
+**Análisis realizados:**
 
-🕒 Avance 3: Análisis Temporal y Tendencias
-Se trabajó con series temporales para detectar:
+- 📐 Estadísticas descriptivas: media, mediana, desviación estándar, rango  
+- 📊 Visualizaciones: histogramas, boxplots, mapas de calor, diagramas de dispersión  
+- 🔗 Correlaciones: temperatura, densidad poblacional, incidencia
 
-📆 Tendencias mensuales en contagios y vacunación.
+**Insights clave:**
 
-♻️ Estacionalidad de incidencia.
+- 🔥 Mayor temperatura promedio → menor incidencia  
+- 🧍‍♂️ Alta densidad → mayor propagación  
+- 🏥 Falta de infraestructura en zonas con alta mortalidad
 
-📊 Autocorrelaciones y picos epidemiológicos.
+---
 
-Esto permitió prever áreas de alta prioridad y periodos críticos que requieren intervención.
+### 🕒 Avance 3: Análisis Temporal y Series de Tiempo
 
+**Objetivo:** Identificar patrones críticos y prever áreas de intervención
 
-📊 Avance 4: Dashboard Interactivo en Power BI
-Se diseñó un dashboard interactivo para facilitar la exploración por parte de los directivos.
+- 📆 Tendencias mensuales en contagios y vacunación  
+- ♻️ Estacionalidad de incidencia  
+- 📊 Análisis de autocorrelación y picos epidemiológicos
 
-Características principales:
+---
 
-🔍 Filtros por país, fecha, variable y tipo de región.
+### 📊 Avance 4: Dashboard Interactivo en Power BI
 
-📌 KPIs dinámicos de salud y vacunación.
+🔧 Se desarrolló un dashboard interactivo para la toma de decisiones ejecutivas.
 
-📈 Evolución mensual de casos y dosis administradas.
+**Características:**
 
+- 🔍 Filtros por país, fecha, variable y tipo de zona  
+- 📌 KPIs dinámicos de salud y vacunación  
+- 📈 Visualización mensual de casos y dosis administradas
 
-🔍 EDA e Insights Relevantes
-🏥 Infraestructura desigual vs. incidencia de casos.
+---
 
-❤️‍🩹 Comorbilidades (diabetes, tabaquismo) correlacionadas con mayor mortalidad.
+## 🔍 Insights Relevantes del Análisis
 
-🌄 Desigualdad urbana-rural: cobertura deficiente en zonas rurales.
+| Categoría | Insight |
+|----------|---------|
+| 🏥 Infraestructura | Desigualdad en zonas con alta incidencia |
+| ❤️‍🩹 Comorbilidades | Diabetes y tabaquismo → mayor mortalidad |
+| 🌄 Zonas rurales | Cobertura sanitaria deficiente |
+| 👵 Edad media | Influye en la recuperación y mortalidad |
 
-👵 Edad media influye en recuperación y mortalidad.
+---
 
-📊 Análisis del Dashboard
-El dashboard desarrollado en Power BI brinda una vista integral del impacto del COVID-19 en los seis países analizados.
+## 📊 Análisis del Dashboard
 
+**Visualizaciones destacadas:**
 
-Visualizaciones clave:
+- 🌍 Ritmo de propagación por país: Brasil con mayor volumen  
+- 📈 Olas epidemiológicas: picos en 2021 y 2022  
+- 🧬 Mortalidad asociada a comorbilidades: alta en Chile  
+- 💉 Dosis administradas: Brasil, México y Perú lideran  
+- ⚠️ Impacto severo: Perú y México  
+- 🌡️ Temperatura vs. casos: sin correlación directa clara  
+- 🔄 Matriz de correlación: relaciones fuertes entre infraestructura, comorbilidades y vacunación
 
-🌍 Ritmo de propagación por país: Brasil destaca por volumen de casos.
+> 🧭 Este dashboard es clave para decisiones estratégicas de expansión.
 
-📈 Picos y olas epidemiológicas: principalmente en 2021 y 2022.
+---
 
-🧬 Comorbilidades y mortalidad: Chile con niveles más altos.
+## 🧾 Conclusiones y Recomendaciones
 
-💉 Dosis administradas: Brasil lidera, seguido por México y Perú.
+### ✅ Conclusiones Generales
 
-⚠️ Impacto severo: Perú y México muestran los niveles más altos.
+- 📍 Casos concentrados en áreas urbanas densas  
+- 💉 Vacunación desigual, sobre todo en zonas rurales  
+- ⚕️ Mortalidad ligada a comorbilidades y acceso a salud
 
-🌡️ Comparación temperatura - nuevos casos: no hay correlación directa clara.
+### 📌 Recomendaciones Estratégicas
 
-🔄 Matriz de correlación: relaciones fuertes entre infraestructura, densidad, comorbilidades y vacunación.
+- 🏗️ Expandir en zonas densamente pobladas con baja infraestructura  
+- 🏥 Aumentar vacunación en regiones rurales  
+- 📊 Incorporar indicadores como diabetes, contaminación y edad media  
+- 🌐 Aplicar estrategias diferenciadas por país
 
-📌 Este dashboard es una herramienta clave para la toma de decisiones estratégicas en expansión e inversión.
+---
 
-🧾 Conclusiones y Recomendaciones
-✅ Conclusiones Generales
-📍 Casos concentrados en zonas urbanas densamente pobladas.
+## 📍 Ubicaciones Recomendadas para Expansión
 
-💉 Vacunación desigual, especialmente en áreas rurales.
+| País / Región | Justificación |
+|---------------|---------------|
+| 🇧🇷 Brasil | Alta población y baja infraestructura |
+| 🇵🇪 Perú (zona andina) | Riesgo elevado y baja cobertura rural |
+| 🇨🇴 Colombia (zona andina) | Alta densidad rural, riesgo sanitario |
+| 🇦🇷 Conurbano Bonaerense | Alta densidad y desigualdad sanitaria |
 
-⚕️ Mortalidad influida por comorbilidades y acceso a salud.
+---
 
+## ✅ Impacto Esperado
 
-🧭 Conclusiones Estratégicas
-🏗️ Priorizar expansión en zonas de alta densidad y baja infraestructura sanitaria.
+- 📈 Maximizar el retorno e impacto social de la inversión  
+- 🛡️ Fortalecer la salud pública en América Latina  
+- 🧪 Prepararse para futuras crisis sanitarias
 
-🏥 Ampliar cobertura de vacunación en regiones rurales.
+---
 
-📊 Considerar indicadores como diabetes, contaminación y edad media.
+## 💻 Tecnologías Usadas
 
-🌐 Diseñar estrategias diferenciadas por país.
+- **Python** – Análisis de datos (`pandas`, `numpy`, `seaborn`, `matplotlib`)  
+- **Power BI** – Visualización interactiva de resultados  
+- **CSV / Excel** – Integración y tratamiento de fuentes de datos
 
-📌 Respuesta Principal del Proyecto
-Se recomienda iniciar la expansión en las siguientes ubicaciones estratégicas:
+---
 
-🇧🇷 Brasil: Alta población y baja infraestructura sanitaria.
+## 🧑‍💼 Autores
 
-🇵🇪 🇨🇴 Regiones andinas de Perú y Colombia: Zonas rurales densas con alto riesgo.
+- 👨‍💻 Roman Mtheus – www.linkedin.com/in/roman-matheus-9a6689159 · [GitHub](https://github.com/tuusuario)  
 
-🇦🇷 Conurbano Bonaerense, Argentina: Alta densidad y desigualdad en acceso a salud.
+---
 
-Estas ubicaciones permitirán a Biogenesys:
+## 📁 Estructura del Repositorio
 
-✅ Maximizar el impacto positivo de su inversión.
-
-🛡️ Reforzar la salud pública regional.
-
-🧪 Prepararse ante futuras crisis sanitarias.
