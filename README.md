@@ -152,9 +152,6 @@ COVID-19, vacunación, salud pública, condiciones demográficas
 
 ## 🧑‍💼 Autores
 
-- 👨‍💻 Roman Mtheus – www.linkedin.com/in/roman-matheus-9a6689159 · https://github.com/rrjmr2004
+- 👨‍💻 Roman Matheus – www.linkedin.com/in/roman-matheus-9a6689159 · https://github.com/rrjmr2004
 
----
-
-## 📁 Estructura del Repositorio
 
