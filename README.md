@@ -23,6 +23,7 @@ Tareas clave:
 
 🔍 Filtrado por location_key.
 
+
 📈 Avance 2: Análisis Exploratorio y Visualización
 Utilizando Pandas, NumPy, Matplotlib y Seaborn, se realizaron:
 
@@ -40,6 +41,7 @@ Utilizando Pandas, NumPy, Matplotlib y Seaborn, se realizaron:
 
 🏥 Déficit de infraestructura sanitaria en zonas con alta mortalidad.
 
+
 🕒 Avance 3: Análisis Temporal y Tendencias
 Se trabajó con series temporales para detectar:
 
@@ -50,6 +52,7 @@ Se trabajó con series temporales para detectar:
 📊 Autocorrelaciones y picos epidemiológicos.
 
 Esto permitió prever áreas de alta prioridad y periodos críticos que requieren intervención.
+
 
 📊 Avance 4: Dashboard Interactivo en Power BI
 Se diseñó un dashboard interactivo para facilitar la exploración por parte de los directivos.
@@ -62,6 +65,7 @@ Características principales:
 
 📈 Evolución mensual de casos y dosis administradas.
 
+
 🔍 EDA e Insights Relevantes
 🏥 Infraestructura desigual vs. incidencia de casos.
 
@@ -73,6 +77,7 @@ Características principales:
 
 📊 Análisis del Dashboard
 El dashboard desarrollado en Power BI brinda una vista integral del impacto del COVID-19 en los seis países analizados.
+
 
 Visualizaciones clave:
 
@@ -99,6 +104,7 @@ Visualizaciones clave:
 💉 Vacunación desigual, especialmente en áreas rurales.
 
 ⚕️ Mortalidad influida por comorbilidades y acceso a salud.
+
 
 🧭 Conclusiones Estratégicas
 🏗️ Priorizar expansión en zonas de alta densidad y baja infraestructura sanitaria.
